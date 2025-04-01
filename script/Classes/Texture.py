@@ -1,4 +1,4 @@
-from Vector2 import Vector2
+from Classes.Vector2 import Vector2
 
 import pyxel
 

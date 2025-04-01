@@ -1,6 +1,7 @@
 # クラスのインポート
-from Vector2 import Vector2
-from Texture import Texture
+from Classes.Vector2 import Vector2
+from Classes.Texture import Texture
+from Classes.Texture import Texture
 
 # モジュールのインポート
 import pyxel
