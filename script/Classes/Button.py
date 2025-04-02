@@ -41,18 +41,18 @@ class Button(Texture):
         
 
 
-class URLButton(Button):
-    def __init__(self, pos:Vector2, texture:Texture, url = None):
-        super().__init__(pos, texture)
-        self.url = url
+# class URLButton(Button):
+#     def __init__(self, pos:Vector2, texture:Texture, url = None):
+#         super().__init__(pos, texture)
+#         self.url = url
 
-    def open_url(self): # リンク付きボタンのクリック時の処理
-        if self.url:
-            print(f"open url {self.url}")
-            webbrowser.open(self.url)
+#     def open_url(self): # リンク付きボタンのクリック時の処理
+#         if self.url:
+#             print(f"open url {self.url}")
+#             webbrowser.open(self.url)
 
-        elif self.url is None:
-            print("instance url is None")
+#         elif self.url is None:
+#             print("instance url is None")
     
 
 
